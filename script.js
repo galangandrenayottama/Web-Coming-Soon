@@ -1,7 +1,7 @@
 // Menghitung waktu tersisa untuk countdown
 function countdown() {
     const endDate = new Date();
-    endDate.setMonth(endDate.getMonth() + 1); // Tambah 1 bulan ke tanggal sekarang
+    endDate.setDate(endDate.getDate() + 30); // Tambah 30 hari ke tanggal sekarang
 
     const interval = setInterval(() => {
         const startDate = new Date();
